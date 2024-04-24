@@ -5,6 +5,11 @@
   margin: 0 auto;
 }
 
+.navbar{ 
+  display: flex;
+  margin-left: 60px;
+}
+
 .gradientText0 {
   background: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
   -webkit-background-clip: text;
@@ -142,4 +147,8 @@
 }
 .logo img {
   filter: invert(1);
+}
+
+.connectWallet {
+  margin-left: 70px;
 }

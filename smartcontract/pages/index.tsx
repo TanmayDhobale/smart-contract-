@@ -13,11 +13,6 @@ const Home: NextPage = () => {
             <span className={styles.gradientText0}> Tanmay`s smart contracts  </span>
           </h1>
 
-       
-
-          <div className={styles.connect}>
-            <ConnectWallet />
-          </div>
         </div>
 
     
