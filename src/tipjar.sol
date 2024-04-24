@@ -8,7 +8,7 @@ contract Tipjar  {
   
   event TipReceived(address indexed from, uint256 amount); // triggered when a tip is received. It logs the address of the sender and the amount of the tip.
   
-    constructor { // This is the constructor function of the contract. It is executed only once, when the contract is deployed.
+  constructor {   // This is the constructor function of the contract. It is executed only once, when the contract is deployed.
     owner = msg.sender;
    }
   modifier  Onlyowner { // A modifier is a special function that is executed before a function. It can be used to check conditions before executing a function. 
